@@ -48,8 +48,6 @@ Once Hugo is installed, run the `hugo version` command from your command-line in
 hugo version
 ```
 
-<iframe src="https://asciinema.org/a/ItACREbFgvJ0HjnSNeTknxWy9/embed?rows=10"/>
-
 The hugo command has several subcommands that you’ll use as you build your site. You can see a list of all commands with `hugo help`.
 
 ```shell
@@ -136,7 +134,6 @@ Execute the following command to tell Hugo to create a new site named `quickstar
 ```shell
 hugo new site quickstart
 ```
-<iframe src="https://asciinema.org/a/3mf1JGaN0AX0Z7j5kLGl3hSh8/embed?rows=10"/>
 
 This creates the portfolio directory, with the following files and directories within:
 
@@ -228,7 +225,6 @@ Then, add the theme to the site configuration in `config.toml` file:
 theme = "ananke"
 ```
 
-<iframe src="https://asciinema.org/a/7naKerRYUGVPj8kiDmdh5k5h9/embed?rows=10" />
 
 ## Adding some contents
 
@@ -238,7 +234,6 @@ You can manually create content files (for example as `content/<CATEGORY>/<FILE>
 hugo new posts/my-first-post.md
 ```
 
-<iframe src="https://asciinema.org/a/eUojYCfRTZvkEiqc52fUsJRBR/embed?rows=10"/>
 
 Edit the newly created content file if you want, it will start with something like this:
 
@@ -268,7 +263,6 @@ All three of these can be overridden during both local development *and* deploym
 
 Now, start the Hugo server with drafts enabled:
 
-<iframe src="https://asciinema.org/a/BvJBsF6egk9c163bMsObhuNXj/embed?rows=10"/>
 
 ```
 ▶ hugo server -D
@@ -340,12 +334,12 @@ As mentioned in the [GitHub Pages documentation](https://help.github.com/article
 
 This is a much simpler setup as your Hugo files and generated content are published into two different repositories.
 
-You can start by creating a Repository on GitHub called `coderzh.github. IO` (replace `coderzh` with your GitHub user name).
+You can start by creating a Repository on GitHub called `test20210513.github. IO` (replace `test20210513` with your GitHub user name).
 
 Execute the Hugo command at the root of the site to generate the final page:
 
 ```shell
-hugo  --baseUrl="http://coderzh.github.io/"
+hugo  --baseUrl="http://test20210513.github.io/"
 ```
 
 > Note that the above command does not generate a draft page. If no articles are generated, update `draft=false` from the header and rebuild.
@@ -355,13 +349,13 @@ All files in the pubilc directory will be pushed to the master branch of the new
 ```shell
 cd public
 git init
-git remote add origin https://github.com/coderzh/coderzh.github.io.git
+git remote add origin https://github.com/test20210513/test20210513.github.io.git
 git add -A
 git commit -m "first commit"
 git push -u origin master
 ```
 
-Finally, visit: http://coderzh.github.io/ on you browser.
+Finally, visit: http://test20210513.github.io/ on you browser.
 
 ### Build Hugo With GitHub Action 
 
