@@ -1,9 +1,3 @@
----
-title: "My First Post"
-date: 2021-05-13T16:42:24+08:00
-draft: false
-
----
 
 <center>How to Use Hugo<center>  
 ---
@@ -40,7 +34,7 @@ Hugo boasts blistering speed, robust content management, and a powerful templati
 
 Hugo is available as a single binary. You can install Hugo two ways: using a package manager, or by downloading the binary manually and placing it in a global location so you can run it anywhere.
 
-Package managers are utilities that let you install and remove programs and utilities. Linux systems often have a built-in package manager. If you’re running macOS, you can install the Homebrew[^1] package manager. If you’re using Windows, you can install Chocolatey. Finally, Linux users can install Linuxbrew,[^2] a version of Homebrew for Linux that offers more up-to-date packages than the package manager that comes with their system.
+Package managers are utilities that let you install and remove programs and utilities. Linux systems often have a built-in package manager. If you’re running macOS, you can install the Homebrew package manager. If you’re using Windows, you can install Chocolatey. Finally, Linux users can install Linuxbrew,a version of Homebrew for Linux that offers more up-to-date packages than the package manager that comes with their system.
 
 Installation via a package manager is the easiest method, although you might not always get the most recent version.
 
