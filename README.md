@@ -1,6 +1,8 @@
 ---
-<center>How to Use Hugo<center>  
----
+<center>How to Use Hugo<center>     
+
+
+
 
 
 1.Overview
