@@ -11,7 +11,7 @@
 3.How to publish website on GitHub
  1. Overview 1.1 What is Hugo Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
 Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content.">
-    <meta name="generator" content="Hugo 0.79.0" />
+    <meta name="generator" content="Hugo 0.83.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -41,23 +41,19 @@ Hugo is a general-purpose website framework. Technically speaking, Hugo is a sta
  1. Overview 1.1 What is Hugo Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
 Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://test20210513.github.io/posts/my-first-post/" />
-<meta property="article:published_time" content="2021-05-13T16:42:24+08:00" />
-<meta property="article:modified_time" content="2021-05-13T16:42:24+08:00" />
+<meta property="og:url" content="https://test20210513.github.io/posts/my-first-post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-13T16:42:24&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-13T16:42:24&#43;08:00" />
+
 <meta itemprop="name" content="My First Post">
 <meta itemprop="description" content="1.Overview
 2.How to create a personal website with HUGO
 3.How to publish website on GitHub
  1. Overview 1.1 What is Hugo Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
-Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content.">
-<meta itemprop="datePublished" content="2021-05-13T16:42:24+08:00" />
-<meta itemprop="dateModified" content="2021-05-13T16:42:24+08:00" />
+Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content."><meta itemprop="datePublished" content="2021-05-13T16:42:24&#43;08:00" />
+<meta itemprop="dateModified" content="2021-05-13T16:42:24&#43;08:00" />
 <meta itemprop="wordCount" content="1257">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="My First Post"/>
 <meta name="twitter:description" content="1.Overview
 2.How to create a personal website with HUGO
@@ -284,20 +280,20 @@ Press Ctrl+C to stop
 <li>Content from the <code>main</code> branch will be used to publish your GitHub Pages site</li>
 </ol>
 <p>This is a much simpler setup as your Hugo files and generated content are published into two different repositories.</p>
-<p>You can start by creating a Repository on GitHub called <code>coderzh.github. IO</code> (replace <code>coderzh</code> with your GitHub user name).</p>
+<p>You can start by creating a Repository on GitHub called <code>test20210513.github. IO</code> (replace <code>test20210513</code> with your GitHub user name).</p>
 <p>Execute the Hugo command at the root of the site to generate the final page:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo  --baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://coderzh.github.io/&#34;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo  --baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://test20210513.github.io/&#34;</span>
 </code></pre></div><blockquote>
 <p>Note that the above command does not generate a draft page. If no articles are generated, update <code>draft=false</code> from the header and rebuild.</p>
 </blockquote>
 <p>All files in the pubilc directory will be pushed to the master branch of the newly created Repository.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd public
 git init
-git remote add origin https://github.com/coderzh/coderzh.github.io.git
+git remote add origin https://github.com/test20210513/test20210513.github.io.git
 git add -A
 git commit -m <span style="color:#e6db74">&#34;first commit&#34;</span>
 git push -u origin master
-</code></pre></div><p>Finally, visit: <a href="http://coderzh.github.io/">http://coderzh.github.io/</a> on you browser.</p>
+</code></pre></div><p>Finally, visit: <a href="http://test20210513.github.io/">http://test20210513.github.io/</a> on you browser.</p>
 <ul class="pa0">
   
 </ul>
