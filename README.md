@@ -1,7 +1,6 @@
----
-<center>How to Use Hugo<center>     
 
----
+# Build websites with Hugo
+
 
 
 
@@ -88,7 +87,7 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 ```
 
-This file is written in TOML[^4] a configuration format designed to be easy to read and modify. The default configuration file only has a handful of data, but you’ll add more as you build out your site.
+This file is written in TOML a configuration format designed to be easy to read and modify. The default configuration file only has a handful of data, but you’ll add more as you build out your site.
 
 ### 2.3 Adding a theme
 
@@ -119,14 +118,14 @@ theme = "ananke"
 You can manually create content files (for example as `content/<CATEGORY>/<FILE>.<FORMAT>`) and provide metadata in them, however you can use the `new` command to do a few things for you (like add title and date):
 
 ```
-hugo new posts/How-to-use-hogo.md
+hugo new posts/my-first-post.md
 ```
 
 Edit the newly created content file if you want, it will start with something like this:
 
 ```markdown
 ---
-title: "How to Use Hugo "
+title: "my-first-post "
 date: 2021-05-11T17:33:42+08:00
 draft: true
 ---
