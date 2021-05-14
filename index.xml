@@ -13,7 +13,7 @@
       <pubDate>Thu, 13 May 2021 16:42:24 +0800</pubDate>
       
       <guid>https://test20210513.github.io/posts/my-first-post/</guid>
-      <description>Build websites with Hugo 1.Overview
+      <description>1.Overview
 2.How to create a personal website with HUGO
 3.How to publish website on GitHub
  1. Overview 1.1 What is Hugo Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
